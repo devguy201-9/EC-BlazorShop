@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F4AK4/jZ0rmRrDPcNP/jv5PCShPBMFPk2G6mw8N8/IyRa5fBrrWrsT8ymu1mC6mtNc6/QDvR7LFZOFR17oVusQ==",
+  "dgSpecHash": "XJ3xmzg5casQvjyxLHlXcDYVhQwdRFQ71V2MzxY6GBlsjPSaxmngjsTGp3ZZGeriujxlQ0Gm0LGR8+B1zyxjlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\Client\\VegetableShop.Client.csproj",
+  "projectFilePath": "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\Client\\VegetableShop.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tgthuan\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.16\\microsoft.aspnetcore.authorization.5.0.16.nupkg.sha512",
     "C:\\Users\\tgthuan\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.16\\microsoft.aspnetcore.components.5.0.16.nupkg.sha512",

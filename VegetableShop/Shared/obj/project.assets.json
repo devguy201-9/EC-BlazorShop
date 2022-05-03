@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\Shared\\VegetableShop.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\Shared\\VegetableShop.Shared.csproj",
       "projectName": "VegetableShop.Shared",
-      "projectPath": "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\Shared\\VegetableShop.Shared.csproj",
+      "projectPath": "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\Shared\\VegetableShop.Shared.csproj",
       "packagesPath": "C:\\Users\\tgthuan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tgthuan\\AppData\\Roaming\\NuGet\\NuGet.Config",

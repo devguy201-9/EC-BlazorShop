@@ -1176,11 +1176,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\Client\\VegetableShop.Client.csproj",
+      "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\Client\\VegetableShop.Client.csproj",
       "projectName": "VegetableShop.Client",
-      "projectPath": "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\Client\\VegetableShop.Client.csproj",
+      "projectPath": "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\Client\\VegetableShop.Client.csproj",
       "packagesPath": "C:\\Users\\tgthuan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\Client\\obj\\",
+      "outputPath": "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tgthuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1197,8 +1197,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\Shared\\VegetableShop.Shared.csproj": {
-              "projectPath": "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\Shared\\VegetableShop.Shared.csproj"
+            "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\Shared\\VegetableShop.Shared.csproj": {
+              "projectPath": "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\Shared\\VegetableShop.Shared.csproj"
             }
           }
         }
