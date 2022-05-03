@@ -1,0 +1,12 @@
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\bin\Debug\net5.0\VegetableShop.Shared.deps.json
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\bin\Debug\net5.0\VegetableShop.Shared.dll
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\bin\Debug\net5.0\VegetableShop.Shared.pdb
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\obj\Debug\net5.0\VegetableShop.Shared.csproj.AssemblyReference.cache
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\obj\Debug\net5.0\VegetableShop.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\obj\Debug\net5.0\VegetableShop.Shared.AssemblyInfoInputs.cache
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\obj\Debug\net5.0\VegetableShop.Shared.AssemblyInfo.cs
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\obj\Debug\net5.0\VegetableShop.Shared.csproj.CoreCompileInputs.cache
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\obj\Debug\net5.0\VegetableShop.Shared.dll
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\obj\Debug\net5.0\refint\VegetableShop.Shared.dll
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\obj\Debug\net5.0\VegetableShop.Shared.pdb
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\obj\Debug\net5.0\ref\VegetableShop.Shared.dll
