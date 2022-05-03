@@ -19,6 +19,10 @@ namespace VegetableShop.Shared
         public int category_id { get; set; }
         public units units { get; set; }
         public int unit_id { get; set; }
+        public List<product_ratings> product_ratings { get; set; }
+        public List<carts> carts { get; set; }
+        public List<order_details> order_details { get; set; }
+        public List<shipment_details> shipment_details { get; set; }
         public int status { get; set; }
         public DateTime created_at { get; set; }
         public DateTime updated_at { get; set; }

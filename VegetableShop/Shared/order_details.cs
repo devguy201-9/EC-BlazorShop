@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VegetableShop.Shared
 {
-    class order_details
+    public class order_details
     {
         public products products { get; set; }
         public int product_id { get; set; }
