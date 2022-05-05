@@ -3,7 +3,7 @@ Final project of e-commerce course
 
 #### Create database with name 'vegetable' in SQL Server Management Studio.<br/>
 #### Excute file sql name 'vegetable.sql' to create table.<br/>
-#### Excute file sql name 'create_trigger_created_at.sql' to set trigger.<br/>
+#### Excute file sql name 'create_trigger_updated_at.sql' to set trigger.<br/>
 #### Connect and open sql server in visual studio 2019, get ConnectionString and paste in the value for the DefaultConnection variable in the appsettings.json file in Server.<br/>
 ## Use: Dotnet 5<br/>
 #### Microsoft.EntityFrameworkCore ver5.0.4<br/>
