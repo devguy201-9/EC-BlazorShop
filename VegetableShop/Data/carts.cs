@@ -10,6 +10,7 @@ namespace VegetableShop.Data
      public class carts
     {
         [Key]
+        public int id { get; set; }
         public products products { get; set; }
         public int product_id { get; set; }
         public users users { get; set; }

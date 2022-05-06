@@ -10,6 +10,7 @@ namespace VegetableShop.Data
     public class shipment_details
     {
         [Key]
+        public int id { get; set; }
         public shipments shipments { get; set; }
         public int shipment_id { get; set; }
         public products products { get; set; }

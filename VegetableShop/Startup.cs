@@ -32,6 +32,7 @@ namespace VegetableShop
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
             services.AddScoped<UserService>();
+            services.AddScoped<RoleService>();
 
             #region Connection String
             services.AddDbContext<DataContext>(item => item.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
