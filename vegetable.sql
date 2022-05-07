@@ -168,3 +168,6 @@ ALTER TABLE order_details ADD FOREIGN KEY ([order_id]) REFERENCES orders ([id]);
 ALTER TABLE shipments ADD FOREIGN KEY ([distributor_id]) REFERENCES distributors ([id]);
 ALTER TABLE shipment_details ADD FOREIGN KEY ([shipment_id]) REFERENCES shipments ([id]);
 ALTER TABLE shipment_details ADD FOREIGN KEY ([product_id]) REFERENCES products ([id]);
+
+INSERT INTO roles (role_name) VALUES ('user');
+INSERT INTO roles (role_name) VALUES ('admin');
