@@ -91,3 +91,8 @@ C:\Users\tgthuan\Desktop\Vegetable-Shop\VegetableShop\obj\Debug\net5.0\Vegetable
 C:\Users\tgthuan\Desktop\Vegetable-Shop\VegetableShop\obj\Debug\net5.0\VegetableShop.genruntimeconfig.cache
 C:\Users\tgthuan\Desktop\Vegetable-Shop\VegetableShop\obj\Debug\net5.0\RazorDeclaration\Pages\PagesCRUDRole\Roles.razor.g.cs
 C:\Users\tgthuan\Desktop\Vegetable-Shop\VegetableShop\obj\Debug\net5.0\Razor\Pages\PagesCRUDRole\Roles.razor.g.cs
+C:\Users\tgthuan\Desktop\Vegetable-Shop\VegetableShop\obj\Debug\net5.0\VegetableShop.csproj.AssemblyReference.cache
+C:\Users\tgthuan\Desktop\Vegetable-Shop\VegetableShop\obj\Debug\net5.0\RazorDeclaration\Pages\PagesCRUDRole\AddRole.razor.g.cs
+C:\Users\tgthuan\Desktop\Vegetable-Shop\VegetableShop\obj\Debug\net5.0\RazorDeclaration\Pages\PagesCRUDRole\EditRole.razor.g.cs
+C:\Users\tgthuan\Desktop\Vegetable-Shop\VegetableShop\obj\Debug\net5.0\Razor\Pages\PagesCRUDRole\AddRole.razor.g.cs
+C:\Users\tgthuan\Desktop\Vegetable-Shop\VegetableShop\obj\Debug\net5.0\Razor\Pages\PagesCRUDRole\EditRole.razor.g.cs
