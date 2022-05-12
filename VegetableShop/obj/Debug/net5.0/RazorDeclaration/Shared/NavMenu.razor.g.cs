@@ -90,7 +90,7 @@ using VegetableShop.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "C:\Users\tgthuan\Desktop\Vegetable-Shop\VegetableShop\Shared\NavMenu.razor"
+#line 40 "C:\Users\tgthuan\Desktop\Vegetable-Shop\VegetableShop\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
