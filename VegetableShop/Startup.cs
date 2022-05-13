@@ -35,7 +35,7 @@ namespace VegetableShop
             services.AddScoped<RoleService>();
 
             #region Connection String
-            services.AddDbContext<DataContext>(item => item.UseSqlServer(Environment.GetEnvironmentVariable(Configuration.GetConnectionString("DefaultConnection"))));
+            services.AddDbContext<DataContext>(item => item.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             #endregion
         }
 
