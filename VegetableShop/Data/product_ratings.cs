@@ -12,9 +12,7 @@ namespace VegetableShop.Data
         [Key]
         public int id { get; set; }
         public products products { get; set; }
-        public int product_id { get; set; }
         public users users { get; set; }
-        public int user_id { get; set; }
         public string comment { get; set; }
         public int point { get; set; }
         public int status { get; set; }

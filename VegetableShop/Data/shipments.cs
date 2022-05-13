@@ -12,7 +12,6 @@ namespace VegetableShop.Data
         [Key]
         public int id { get; set; }
         public distributors distributors { get; set; }
-        public int distributor_id { get; set; }
         public string shipment_code { get; set; }
         public List<shipment_details> shipment_details { get; set; }
         public int status { get; set; }

@@ -12,9 +12,7 @@ namespace VegetableShop.Data
         [Key]
         public int id { get; set; }
         public shipments shipments { get; set; }
-        public int shipment_id { get; set; }
         public products products { get; set; }
-        public int product_id { get; set; }
         public float purchase_price { get; set; }
         public float price { get; set; }
         public int quantity_sold { get; set; }

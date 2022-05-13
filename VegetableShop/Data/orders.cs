@@ -21,7 +21,6 @@ namespace VegetableShop.Data
         [Key]
         public int id { get; set; }
         public users users { get; set; }
-        public int user_id { get; set; }
         public string note { get; set; }
         public float total_price { get; set; }
         public states state { get; set; }

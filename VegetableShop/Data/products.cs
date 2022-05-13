@@ -18,9 +18,7 @@ namespace VegetableShop.Data
         public float price { get; set; }
         public int quantity { get; set; }
         public categories categories { get; set; }
-        public int category_id { get; set; }
         public units units { get; set; }
-        public int unit_id { get; set; }
         public List<product_ratings> product_ratings { get; set; }
         public List<carts> carts { get; set; }
         public List<order_details> order_details { get; set; }

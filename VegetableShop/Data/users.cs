@@ -20,7 +20,6 @@ namespace VegetableShop.Data
         public string avatar { get; set; }
         public string phone_number { get; set; }
         public roles roles { get; set; }
-        public int role_id { get; set; }
         public List<product_ratings> product_ratings { get; set; }
         public List<carts> carts { get; set; }
         public List<orders> orders { get; set; }
