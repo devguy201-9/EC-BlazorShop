@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\VegetableShop.csproj": {}
+    "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\VegetableShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\VegetableShop.csproj": {
+    "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\VegetableShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\VegetableShop.csproj",
+        "projectUniqueName": "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\VegetableShop.csproj",
         "projectName": "VegetableShop",
-        "projectPath": "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\VegetableShop.csproj",
+        "projectPath": "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\VegetableShop.csproj",
         "packagesPath": "C:\\Users\\tgthuan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tgthuan\\Desktop\\Vegetable-Shop\\VegetableShop\\obj\\",
+        "outputPath": "C:\\Users\\tgthuan\\source\\repos\\VegetableShop\\VegetableShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tgthuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,25 +40,25 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.16, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.16, )"
             }
           },
           "imports": [

@@ -11,11 +11,11 @@ namespace VegetableShop.Services
     public class CartService
     {
         #region Property
-        private readonly DataContext _appDBContext;
+        private readonly ApplicationDbContext _appDBContext;
         #endregion
 
         #region Constructor
-        public CartService(DataContext appDBContext)
+        public CartService(ApplicationDbContext appDBContext)
         {
             _appDBContext = appDBContext;
         }

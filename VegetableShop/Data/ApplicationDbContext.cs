@@ -1,18 +1,16 @@
-﻿
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 
 namespace VegetableShop.Data
 {
-    public class DataContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
-        public DataContext(DbContextOptions<DataContext> options) : base (options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
         {
-            
         }
 
         public DbSet<categories> Categories { get; set; }
@@ -27,6 +25,5 @@ namespace VegetableShop.Data
         public DbSet<shipment_details> Shipment_Details { get; set; }
         public DbSet<shipments> Shipments { get; set; }
         public DbSet<users> Users { get; set; }
-
     }
 }

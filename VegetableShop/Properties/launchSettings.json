@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:56039",
-      "sslPort": 44384
+      "applicationUrl": "http://localhost:3664",
+      "sslPort": 44304
     }
   },
   "profiles": {
@@ -12,7 +12,6 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "Key": "Value",
         "DefaultConnection": "Data Source=DESKTOP-RRD770E\\SQLEXPRESS;Initial Catalog=vegetable;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

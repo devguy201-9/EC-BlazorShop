@@ -12,11 +12,11 @@ namespace VegetableShop.Services
     {
 
         #region Property
-        private readonly DataContext _appDBContext;
+        private readonly ApplicationDbContext _appDBContext;
         #endregion
 
         #region Constructor
-        public UserService(DataContext appDBContext)
+        public UserService(ApplicationDbContext appDBContext)
         {
             _appDBContext = appDBContext;
         }
