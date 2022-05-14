@@ -10,3 +10,5 @@ Final project of e-commerce course
 #### Microsoft.EntityFrameworkCore.Tools ver5.0.4<br/>
 #### Microsoft.EntityFrameworkCore.Design ver5.0.4<br/>
 #### Microsoft.EntityFrameworkCore.SqlServer ver5.0.4
+#### Microsoft.AspNet.Identity.EntityFramework ver5.0.4
+#### Microsoft.AspNet.Identity.UI ver5.0.4
