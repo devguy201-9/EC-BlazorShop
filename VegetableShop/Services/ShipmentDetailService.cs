@@ -24,7 +24,7 @@ namespace VegetableShop.Services
         #region Get List of shipment_details
         public async Task<List<shipment_details>> GetAllShipment_DetailsAsync()
         {
-            return await _appDBContext.Shipment_Details.ToListAsync();
+            return await _appDBContext.Shipment_Details.Where(c => c.status.Equals(1)).ToListAsync();
         }
         #endregion
 
@@ -40,8 +40,15 @@ namespace VegetableShop.Services
         #region Get shipment_details by id
         public async Task<shipment_details> GetShipment_DetailsAsync(int Id)
         {
-            shipment_details shipment_details = await _appDBContext.Shipment_Details.FirstOrDefaultAsync(c => c.id.Equals(Id));
+            shipment_details shipment_details = await _appDBContext.Shipment_Details.FirstOrDefaultAsync(c => c.id.Equals(Id) && c.status.Equals(1));
             return shipment_details;
+        }
+        #endregion
+
+        #region Get shipment_details by shipmentsid
+        public async Task<List<shipment_details>> GetShipment_DetailsByShipmentsIDAsync(int shipmentsID)
+        {
+            return await _appDBContext.Shipment_Details.Where(c => c.shipments.id.Equals(shipmentsID) && c.status.Equals(1)).ToListAsync();
         }
         #endregion
 

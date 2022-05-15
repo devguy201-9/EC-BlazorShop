@@ -25,7 +25,7 @@ namespace VegetableShop.Services
         #region Get List of roles
         public async Task<List<roles>> GetAllRolesAsync()
         {
-            return await _appDBContext.Roles.ToListAsync();
+            return await _appDBContext.Roles.Where(c => c.status.Equals(1)).ToListAsync();
         }
         #endregion
 
@@ -41,7 +41,7 @@ namespace VegetableShop.Services
         #region Get roles by id
         public async Task<roles> GetRolesAsync(int Id)
         {
-            roles roles = await _appDBContext.Roles.FirstOrDefaultAsync(c => c.id.Equals(Id));
+            roles roles = await _appDBContext.Roles.FirstOrDefaultAsync(c => c.id.Equals(Id) && c.status.Equals(1));
             return roles;
         }
         #endregion

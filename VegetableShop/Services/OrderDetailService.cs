@@ -24,7 +24,7 @@ namespace VegetableShop.Services
         #region Get List of order_details
         public async Task<List<order_details>> GetAllOrder_DetailsAsync()
         {
-            return await _appDBContext.Order_Details.ToListAsync();
+            return await _appDBContext.Order_Details.Where(c => c.status.Equals(1)).ToListAsync();
         }
         #endregion
 
@@ -37,11 +37,11 @@ namespace VegetableShop.Services
         }
         #endregion
 
-        #region Get order_details by id
-        public async Task<order_details> GetOrder_DetailsAsync(int Id)
+        #region Get order_details by ordersid
+        public async Task<List<order_details>> GetOrder_DetailsByOrdersIDAsync(int ordersID)
         {
-            order_details order_details = await _appDBContext.Order_Details.FirstOrDefaultAsync(c => c.id.Equals(Id));
-            return order_details;
+            return await _appDBContext.Order_Details.Where(c => c.orders.id.Equals(ordersID) && c.status.Equals(1)).ToListAsync();
+            //return await _appDBContext.Order_Details.FirstOrDefaultAsync(c => c.orders.id.Equals(ordersID));
         }
         #endregion
 
@@ -54,13 +54,5 @@ namespace VegetableShop.Services
         }
         #endregion
 
-        #region Delete order_details
-        public async Task<bool> DeleteOrder_DetailsAsync(order_details order_details)
-        {
-            _appDBContext.Remove(order_details);
-            await _appDBContext.SaveChangesAsync();
-            return true;
-        }
-        #endregion
     }
 }

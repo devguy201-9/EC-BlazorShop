@@ -25,7 +25,7 @@ namespace VegetableShop.Services
         #region Get List of users
         public async Task<List<users>> GetAllUsersAsync()
         {
-            return await _appDBContext.Users.ToListAsync();
+            return await _appDBContext.Users.Where(c => c.status.Equals(1)).ToListAsync();
         }
         #endregion
 
@@ -41,7 +41,23 @@ namespace VegetableShop.Services
         #region Get users by id
         public async Task<users> GetUsersAsync(int Id)
         {
-            users users = await _appDBContext.Users.FirstOrDefaultAsync(c => c.id.Equals(Id));
+            users users = await _appDBContext.Users.FirstOrDefaultAsync(c => c.id.Equals(Id) && c.status.Equals(1));
+            return users;
+        }
+        #endregion
+
+        #region Get users by email
+        public async Task<users> GetUsersByEmailAsync(string email)
+        {
+            users users = await _appDBContext.Users.FirstOrDefaultAsync(c => c.email.Equals(email) && c.status.Equals(1));
+            return users;
+        }
+        #endregion
+
+        #region Get users by user_name and password
+        public async Task<users> GetUsersByUserNameAndPasswordAsync(string user_name,string password)
+        {
+            users users = await _appDBContext.Users.FirstOrDefaultAsync(c => c.user_name.Equals(user_name) && c.password.Equals(password) && c.status.Equals(1));
             return users;
         }
         #endregion

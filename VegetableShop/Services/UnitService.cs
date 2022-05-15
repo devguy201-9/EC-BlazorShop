@@ -24,7 +24,7 @@ namespace VegetableShop.Services
         #region Get List of units
         public async Task<List<units>> GetAllUnitsAsync()
         {
-            return await _appDBContext.Units.ToListAsync();
+            return await _appDBContext.Units.Where(c => c.status.Equals(1)).ToListAsync();
         }
         #endregion
 
@@ -40,7 +40,7 @@ namespace VegetableShop.Services
         #region Get units by id
         public async Task<units> GetUnitsAsync(int Id)
         {
-            units units = await _appDBContext.Units.FirstOrDefaultAsync(c => c.id.Equals(Id));
+            units units = await _appDBContext.Units.FirstOrDefaultAsync(c => c.id.Equals(Id) && c.status.Equals(1));
             return units;
         }
         #endregion

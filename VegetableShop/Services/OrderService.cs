@@ -24,7 +24,7 @@ namespace VegetableShop.Services
         #region Get List of orders
         public async Task<List<orders>> GetAllOrdersAsync()
         {
-            return await _appDBContext.Orders.ToListAsync();
+            return await _appDBContext.Orders.Where(c => c.status.Equals(1)).ToListAsync();
         }
         #endregion
 
@@ -37,11 +37,11 @@ namespace VegetableShop.Services
         }
         #endregion
 
-        #region Get orders by id
-        public async Task<orders> GetOrdersAsync(int Id)
+        #region Get orders by usersid
+        public async Task<List<orders>> GetOrdersByUsersIDAsync(int usersID)
         {
-            orders orders = await _appDBContext.Orders.FirstOrDefaultAsync(c => c.id.Equals(Id));
-            return orders;
+            return await _appDBContext.Orders.Where(c => c.users.id.Equals(usersID) && c.status.Equals(1)).ToListAsync();
+            //orders orders = await _appDBContext.Orders.FirstOrDefaultAsync(c => c.id.Equals(usersID));
         }
         #endregion
 
@@ -54,13 +54,5 @@ namespace VegetableShop.Services
         }
         #endregion
 
-        #region Delete orders
-        public async Task<bool> DeleteOrdersAsync(orders orders)
-        {
-            _appDBContext.Remove(orders);
-            await _appDBContext.SaveChangesAsync();
-            return true;
-        }
-        #endregion
     }
 }

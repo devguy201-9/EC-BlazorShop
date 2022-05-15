@@ -24,7 +24,7 @@ namespace VegetableShop.Services
         #region Get List of distributors
         public async Task<List<distributors>> GetAllDistributorsAsync()
         {
-            return await _appDBContext.Distributors.ToListAsync();
+            return await _appDBContext.Distributors.Where(c => c.status.Equals(1)).ToListAsync();
         }
         #endregion
 
@@ -40,7 +40,7 @@ namespace VegetableShop.Services
         #region Get distributors by id
         public async Task<distributors> GetDistributorsAsync(int Id)
         {
-            distributors distributors = await _appDBContext.Distributors.FirstOrDefaultAsync(c => c.id.Equals(Id));
+            distributors distributors = await _appDBContext.Distributors.FirstOrDefaultAsync(c => c.id.Equals(Id) && c.status.Equals(1));
             return distributors;
         }
         #endregion
@@ -54,13 +54,5 @@ namespace VegetableShop.Services
         }
         #endregion
 
-        #region Delete distributors
-        public async Task<bool> DeleteDistributorsAsync(distributors distributors)
-        {
-            _appDBContext.Remove(distributors);
-            await _appDBContext.SaveChangesAsync();
-            return true;
-        }
-        #endregion
     }
 }

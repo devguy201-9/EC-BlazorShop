@@ -23,7 +23,7 @@ namespace VegetableShop.Services
         #region Get List of categories
         public async Task<List<categories>> GetAllCategoriesAsync()
         {
-            return await _appDBContext.Categories.ToListAsync();
+            return await _appDBContext.Categories.Where(c => c.status.Equals(1)).ToListAsync();
         }
         #endregion
 
@@ -37,9 +37,9 @@ namespace VegetableShop.Services
         #endregion
 
         #region Get categories by id
-        public async Task<categories> GetCategoriesAsync(int Id)
+        public async Task<categories> GetCategoiesAsync(int Id)
         {
-            categories categories = await _appDBContext.Categories.FirstOrDefaultAsync(c => c.id.Equals(Id));
+            categories categories = await _appDBContext.Categories.FirstOrDefaultAsync(c => c.id.Equals(Id) && c.status.Equals(1));
             return categories;
         }
         #endregion
@@ -53,13 +53,5 @@ namespace VegetableShop.Services
         }
         #endregion
 
-        #region Delete categories
-        public async Task<bool> DeleteCategoriesAsync(categories categories)
-        {
-            _appDBContext.Remove(categories);
-            await _appDBContext.SaveChangesAsync();
-            return true;
-        }
-        #endregion
     }
 }

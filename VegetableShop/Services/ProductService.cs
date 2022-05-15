@@ -24,7 +24,7 @@ namespace VegetableShop.Services
         #region Get List of products
         public async Task<List<products>> GetAllProductsAsync()
         {
-            return await _appDBContext.Products.ToListAsync();
+            return await _appDBContext.Products.Where(c => c.status.Equals(1)).ToListAsync();
         }
         #endregion
 
@@ -40,8 +40,15 @@ namespace VegetableShop.Services
         #region Get products by id
         public async Task<products> GetProductsAsync(int Id)
         {
-            products products = await _appDBContext.Products.FirstOrDefaultAsync(c => c.id.Equals(Id));
+            products products = await _appDBContext.Products.FirstOrDefaultAsync(c => c.id.Equals(Id) && c.status.Equals(1));
             return products;
+        }
+        #endregion
+
+        #region Get products by categoiesid
+        public async Task<List<products>> GetProductsByCateroriesIDAsync(int categoriesID)
+        {
+            return await _appDBContext.Products.Where(c => c.categories.id.Equals(categoriesID) && c.status.Equals(1)).ToListAsync();
         }
         #endregion
 

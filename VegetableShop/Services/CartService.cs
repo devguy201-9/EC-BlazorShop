@@ -24,7 +24,7 @@ namespace VegetableShop.Services
         #region Get List of carts
         public async Task<List<carts>> GetAllCartsAsync()
         {
-            return await _appDBContext.Carts.ToListAsync();
+            return await _appDBContext.Carts.Where(c => c.status.Equals(1)).ToListAsync();
         }
         #endregion
 
@@ -36,17 +36,17 @@ namespace VegetableShop.Services
             return true;
         }
         #endregion
-
-        #region Get carts by id
-        public async Task<carts> GetCartsAsync(int Id)
+        
+        #region Get carts by usersid
+        public async Task<List<carts>> GetCartsByUsersIDAsync(int usersID)
         {
-            carts carts = await _appDBContext.Carts.FirstOrDefaultAsync(c => c.id.Equals(Id));
-            return carts;
+            return await _appDBContext.Carts.Where(c => c.users.id.Equals(usersID) && c.status.Equals(1)).ToListAsync();
+            //carts carts = await _appDBContext.Carts.FirstOrDefaultAsync(c => c.users.id.Equals(usersID));
         }
         #endregion
 
-        #region Update carts
-        public async Task<bool> UpdateCartssAsync(carts carts)
+        #region Update Quantity of carts
+        public async Task<bool> UpdateQuantityCartsAsync(carts carts)
         {
             _appDBContext.Carts.Update(carts);
             await _appDBContext.SaveChangesAsync();
