@@ -23,6 +23,16 @@
     <link rel="stylesheet" href="~/LTE/css/style.css" type="text/css">
     <link href="css/site.css" rel="stylesheet" />
     <link href="VegetableShop.styles.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/perfect-scrollbar/css/perfect-scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/material-design-icons/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/jquery.vectormap/jquery-jvectormap-1.2.2.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/jqvmap/jqvmap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/datetimepicker/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/chartjs/Chart.min.js">
+
+
+    <link rel="stylesheet" href="~/Admin/css/app.css" type="text/css">
 </head>
 <body>
     <component type="typeof(App)" render-mode="ServerPrerendered" />
@@ -50,5 +60,31 @@
     <script src="~/LTE/js/mixitup.min.js"></script>
     <script src="~/LTE/js/owl.carousel.min.js"></script>
     <script src="~/LTE/js/main.js"></script>
+
+
+    <script src="~/Admin/lib/jquery/jquery.min.js"></script>
+    <script src="~/Admin/lib/perfect-scrollbar/js/perfect-scrollbar.min.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="~/Admin/js/app.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/jquery.flot.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/jquery.flot.pie.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/jquery.flot.time.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/jquery.flot.resize.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/plugins/jquery.flot.orderBars.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/plugins/curvedLines.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/plugins/jquery.flot.tooltip.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery.sparkline/jquery.sparkline.min.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/countup/countUp.min.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jqvmap/jquery.vmap.min.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //-initialize the javascript
+            App.init();
+            App.dashboard();
+
+        });
+    </script>
 </body>
 </html>
