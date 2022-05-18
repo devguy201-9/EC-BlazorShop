@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.Authentication
+﻿namespace VegetableShop.Authentication
 {
     public class UserSession
     {

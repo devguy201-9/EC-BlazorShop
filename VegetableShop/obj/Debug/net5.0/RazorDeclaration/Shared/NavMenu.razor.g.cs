@@ -82,6 +82,13 @@ using VegetableShop.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 1 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\NavMenu.razor"
+using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -90,8 +97,29 @@ using VegetableShop.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 44 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\NavMenu.razor"
+#line 7 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\NavMenu.razor"
+      
+    private string load = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //await Task.Run(LoadingFunc);
+    }
+
+    private async void LoadingFunc()
+    {
+        var rs = await LocalStorage.GetAsync<string>("Loading");
+        load = rs.Success ? rs.Value : "Failed";
+    }
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 231 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\NavMenu.razor"
        
+
+
     private bool collapseNavMenu = true;
 
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
@@ -99,11 +127,14 @@ using VegetableShop.Shared;
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
-    }
+    } 
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime js { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ProtectedLocalStorage LocalStorage { get; set; }
     }
 }
 #pragma warning restore 1591

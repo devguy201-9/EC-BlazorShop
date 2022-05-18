@@ -1,10 +1,32 @@
-﻿
+﻿@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
+
+@inject ProtectedLocalStorage LocalStorage
+@inject IJSRuntime js
+@inject NavigationManager navManager
+
+@code{
+    private string load = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //await Task.Run(LoadingFunc);
+    }
+
+    private async void LoadingFunc()
+    {
+        var rs = await LocalStorage.GetAsync<string>("Loading");
+        load = rs.Success ? rs.Value : "Failed";
+    }
+}
 
 <a href="Admin">Admin</a>
 <!-- Page Preloder -->
-<div id="preloder">
-    <div class="loader"></div>
-</div>
+@if (@load == "!ok")
+{
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+}
 
 <!-- Humberger Begin -->
 <div class="humberger__menu__overlay"></div>
@@ -205,7 +227,11 @@
     </div>
 </section>
 <!-- Hero Section End -->
-@code { private bool collapseNavMenu = true;
+
+@code {
+
+
+    private bool collapseNavMenu = true;
 
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 

@@ -166,7 +166,7 @@ using Microsoft.AspNetCore.Hosting;
     {
         for (int i = 0; i < Total; i++)
         {
-            var path = $"{env.WebRootPath}\\LTE\\img\\{images.Picture[i].Name}";
+            var path = $"{env.WebRootPath}\\LTE\\img\\product\\{images.Picture[i].Name}";
             using var file = File.OpenWrite(path);
             using var stream = images.Picture[i].OpenReadStream(968435456);
 
