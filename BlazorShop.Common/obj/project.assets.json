@@ -187,11 +187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj",
+      "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Common\\BlazorShop.Common.csproj",
       "projectName": "BlazorShop.Common",
-      "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj",
+      "projectPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Common\\BlazorShop.Common.csproj",
       "packagesPath": "C:\\Users\\tgthuan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\obj\\",
+      "outputPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tgthuan\\AppData\\Roaming\\NuGet\\NuGet.Config",

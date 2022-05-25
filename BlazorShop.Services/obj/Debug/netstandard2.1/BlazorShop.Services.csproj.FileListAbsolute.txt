@@ -15,3 +15,20 @@ C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Services\obj\Debu
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Services\obj\Debug\netstandard2.1\BlazorShop.Services.csproj.CopyComplete
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Services\obj\Debug\netstandard2.1\BlazorShop.Services.dll
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Services\obj\Debug\netstandard2.1\BlazorShop.Services.pdb
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\bin\Debug\netstandard2.1\BlazorShop.Services.deps.json
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\bin\Debug\netstandard2.1\BlazorShop.Services.dll
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\bin\Debug\netstandard2.1\BlazorShop.Services.pdb
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\bin\Debug\netstandard2.1\BlazorShop.Common.dll
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\bin\Debug\netstandard2.1\BlazorShop.Data.dll
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\bin\Debug\netstandard2.1\BlazorShop.Models.dll
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\bin\Debug\netstandard2.1\BlazorShop.Models.pdb
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\bin\Debug\netstandard2.1\BlazorShop.Common.pdb
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\bin\Debug\netstandard2.1\BlazorShop.Data.pdb
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\obj\Debug\netstandard2.1\BlazorShop.Services.csproj.AssemblyReference.cache
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\obj\Debug\netstandard2.1\BlazorShop.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\obj\Debug\netstandard2.1\BlazorShop.Services.AssemblyInfoInputs.cache
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\obj\Debug\netstandard2.1\BlazorShop.Services.AssemblyInfo.cs
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\obj\Debug\netstandard2.1\BlazorShop.Services.csproj.CoreCompileInputs.cache
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\obj\Debug\netstandard2.1\BlazorShop.Services.csproj.CopyComplete
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\obj\Debug\netstandard2.1\BlazorShop.Services.dll
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Services\obj\Debug\netstandard2.1\BlazorShop.Services.pdb

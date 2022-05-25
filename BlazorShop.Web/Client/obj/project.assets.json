@@ -8274,11 +8274,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Web\\Client\\BlazorShop.Web.Client.csproj",
+      "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Web\\Client\\BlazorShop.Web.Client.csproj",
       "projectName": "BlazorShop.Web.Client",
-      "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Web\\Client\\BlazorShop.Web.Client.csproj",
+      "projectPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Web\\Client\\BlazorShop.Web.Client.csproj",
       "packagesPath": "C:\\Users\\tgthuan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Web\\Client\\obj\\",
+      "outputPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Web\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tgthuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8295,11 +8295,11 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj": {
-              "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj"
+            "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Common\\BlazorShop.Common.csproj": {
+              "projectPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Common\\BlazorShop.Common.csproj"
             },
-            "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Models\\BlazorShop.Models.csproj": {
-              "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Models\\BlazorShop.Models.csproj"
+            "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Models\\BlazorShop.Models.csproj": {
+              "projectPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Models\\BlazorShop.Models.csproj"
             }
           }
         }

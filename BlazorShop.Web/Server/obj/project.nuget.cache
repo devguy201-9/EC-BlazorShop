@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hu9DvlSw6IzLxCL0GgKaYj+hSCvrxXJ5KIpdYgxgGRFossbXGQMTCKZk6cJYzAnLROGRpJzMmHwvT4w0i5hU5w==",
+  "dgSpecHash": "dP0og9dAHUgm/JMKMsk0AXLf8EqmTT2LEOkgJBOq/QGko3eax8jNyGgxCRWOJk51omKJ6GVK9FhSBi/frz30bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Web\\Server\\BlazorShop.Web.Server.csproj",
+  "projectFilePath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Web\\Server\\BlazorShop.Web.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tgthuan\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\tgthuan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

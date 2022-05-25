@@ -7261,11 +7261,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Services\\BlazorShop.Services.csproj",
+      "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Services\\BlazorShop.Services.csproj",
       "projectName": "BlazorShop.Services",
-      "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Services\\BlazorShop.Services.csproj",
+      "projectPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Services\\BlazorShop.Services.csproj",
       "packagesPath": "C:\\Users\\tgthuan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Services\\obj\\",
+      "outputPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tgthuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7282,8 +7282,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Models\\BlazorShop.Models.csproj": {
-              "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Models\\BlazorShop.Models.csproj"
+            "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Models\\BlazorShop.Models.csproj": {
+              "projectPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Models\\BlazorShop.Models.csproj"
             }
           }
         }

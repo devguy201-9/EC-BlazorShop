@@ -23,8 +23,6 @@ namespace BlazorShop.Web.Server
         public void ConfigureServices(IServiceCollection services)
             => services
                 .AddDatabase(this.Configuration)
-                //.AddDbContext<BlazorShopDbContext>(options =>
-                //options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")))
                 .AddIdentity()
                 .AddJwtAuthentication(services.GetApplicationSettings(this.Configuration))
                 .AddAutoMapper(Assembly.GetExecutingAssembly())

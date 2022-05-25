@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jqx3Ydl0ctYdWHQB6oSK3AkafnVSHxolVSDgBuTPOV3cbEtSGRZ/pUxK+yB54hjgMKuHK4u6JDIFopJC/76WUg==",
+  "dgSpecHash": "E9KH5W32jSM9xwd4NJHzFrlCkWBT43AhGHokDfAF1EUk9+LHaoyeKfTWIew5Hl7vHMwEsSZ35Xx68hfu9jvLxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Data\\BlazorShop.Data.csproj",
+  "projectFilePath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Data\\BlazorShop.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tgthuan\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\tgthuan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",

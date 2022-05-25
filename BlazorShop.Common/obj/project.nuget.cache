@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t44GE8jjEYCmx4uBxKfQR9okrHncsFG8ZsIH+aG9FTJTqczu02CqVnwjv5aaay1EFMS6mcZIFwxjm7czOoTfFg==",
+  "dgSpecHash": "tGHeEfQWI4AhuB+XCETqUtKCpAoRJMpwSIuMWpEBBcYzBSwEPrN5cf50SuynbEb3W/joMQdckntWBj4U62amag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj",
+  "projectFilePath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Common\\BlazorShop.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tgthuan\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\tgthuan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

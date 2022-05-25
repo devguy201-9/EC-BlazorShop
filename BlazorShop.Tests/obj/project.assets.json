@@ -12355,11 +12355,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Tests\\BlazorShop.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Tests\\BlazorShop.Tests.csproj",
       "projectName": "BlazorShop.Tests",
-      "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Tests\\BlazorShop.Tests.csproj",
+      "projectPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Tests\\BlazorShop.Tests.csproj",
       "packagesPath": "C:\\Users\\tgthuan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Tests\\obj\\",
+      "outputPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tgthuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12376,8 +12376,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Web\\Server\\BlazorShop.Web.Server.csproj": {
-              "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Web\\Server\\BlazorShop.Web.Server.csproj"
+            "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Web\\Server\\BlazorShop.Web.Server.csproj": {
+              "projectPath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Web\\Server\\BlazorShop.Web.Server.csproj"
             }
           }
         }

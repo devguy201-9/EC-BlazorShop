@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vcWKRcXFOL3mJXdNZZZzJCLXMzu77/SY+WcOj2EPcMK/kf2QI+PHGZb7RVOEzBmQSneMKVnBaHLW7HhTXnckHw==",
+  "dgSpecHash": "kD4ko3Lq2luqiOFDqQ71vjG3YUJ/OG3/NIAR0qA4PqXwEEiDkF/6o0ess/HzjEzc2wssAvPqIvw0J7npJcwKNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Web\\Client\\BlazorShop.Web.Client.csproj",
+  "projectFilePath": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Web\\Client\\BlazorShop.Web.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tgthuan\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\tgthuan\\.nuget\\packages\\blazored.localstorage\\3.0.0\\blazored.localstorage.3.0.0.nupkg.sha512",

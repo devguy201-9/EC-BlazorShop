@@ -11,3 +11,16 @@ C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Data\obj\Debug\ne
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Data\obj\Debug\netstandard2.1\BlazorShop.Data.csproj.CopyComplete
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Data\obj\Debug\netstandard2.1\BlazorShop.Data.dll
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Data\obj\Debug\netstandard2.1\BlazorShop.Data.pdb
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\bin\Debug\netstandard2.1\BlazorShop.Data.deps.json
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\bin\Debug\netstandard2.1\BlazorShop.Data.dll
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\bin\Debug\netstandard2.1\BlazorShop.Data.pdb
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\bin\Debug\netstandard2.1\BlazorShop.Common.dll
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\bin\Debug\netstandard2.1\BlazorShop.Common.pdb
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\obj\Debug\netstandard2.1\BlazorShop.Data.csproj.AssemblyReference.cache
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\obj\Debug\netstandard2.1\BlazorShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\obj\Debug\netstandard2.1\BlazorShop.Data.AssemblyInfoInputs.cache
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\obj\Debug\netstandard2.1\BlazorShop.Data.AssemblyInfo.cs
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\obj\Debug\netstandard2.1\BlazorShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\obj\Debug\netstandard2.1\BlazorShop.Data.csproj.CopyComplete
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\obj\Debug\netstandard2.1\BlazorShop.Data.dll
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Data\obj\Debug\netstandard2.1\BlazorShop.Data.pdb

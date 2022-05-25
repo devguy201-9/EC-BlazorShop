@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Web\Client\bin\Debug\netstandard2.1\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Web\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\wwwroot\" />
   <ContentRoot BasePath="_content/Blazored.Toast" Path="C:\Users\tgthuan\.nuget\packages\blazored.toast\3.1.2\build\..\staticwebassets\" />
 </StaticWebAssets>
