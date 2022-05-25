@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	<UserSecretsId>c3d2f145-c326-4b84-a2a1-ff7081a5eae5</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.18" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="3.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BlazorShop.Models\BlazorShop.Models.csproj" />
+    <ProjectReference Include="..\..\BlazorShop.Services\BlazorShop.Services.csproj" />
+    <ProjectReference Include="..\Client\BlazorShop.Web.Client.csproj" />
+  </ItemGroup>
+
+</Project>

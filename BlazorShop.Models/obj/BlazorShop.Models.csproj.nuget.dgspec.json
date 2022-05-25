@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Models\\BlazorShop.Models.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj",
+        "projectName": "BlazorShop.Common",
+        "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj",
+        "packagesPath": "C:\\Users\\tgthuan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tgthuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Data\\BlazorShop.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Data\\BlazorShop.Data.csproj",
+        "projectName": "BlazorShop.Data",
+        "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Data\\BlazorShop.Data.csproj",
+        "packagesPath": "C:\\Users\\tgthuan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tgthuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj": {
+                "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Models\\BlazorShop.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Models\\BlazorShop.Models.csproj",
+        "projectName": "BlazorShop.Models",
+        "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Models\\BlazorShop.Models.csproj",
+        "packagesPath": "C:\\Users\\tgthuan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tgthuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Data\\BlazorShop.Data.csproj": {
+                "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Data\\BlazorShop.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

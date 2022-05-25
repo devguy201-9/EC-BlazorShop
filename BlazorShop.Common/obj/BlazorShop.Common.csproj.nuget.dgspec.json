@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj",
+        "projectName": "BlazorShop.Common",
+        "projectPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\BlazorShop.Common.csproj",
+        "packagesPath": "C:\\Users\\tgthuan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tgthuan\\Desktop\\New folder2\\BlazorShop\\src\\BlazorShop.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tgthuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

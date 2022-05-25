@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\obj\Debug\net5.0\scopedcss\bundle\" />
-  <ContentRoot BasePath="/Identity" Path="C:\Users\tgthuan\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.16\staticwebassets\V4\" />
-</StaticWebAssets>

@@ -1,0 +1,10 @@
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Common\bin\Debug\netstandard2.1\BlazorShop.Common.deps.json
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Common\bin\Debug\netstandard2.1\BlazorShop.Common.dll
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Common\bin\Debug\netstandard2.1\BlazorShop.Common.pdb
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Common\obj\Debug\netstandard2.1\BlazorShop.Common.csproj.AssemblyReference.cache
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Common\obj\Debug\netstandard2.1\BlazorShop.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Common\obj\Debug\netstandard2.1\BlazorShop.Common.AssemblyInfoInputs.cache
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Common\obj\Debug\netstandard2.1\BlazorShop.Common.AssemblyInfo.cs
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Common\obj\Debug\netstandard2.1\BlazorShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Common\obj\Debug\netstandard2.1\BlazorShop.Common.dll
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Common\obj\Debug\netstandard2.1\BlazorShop.Common.pdb

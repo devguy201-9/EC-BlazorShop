@@ -1,0 +1,15 @@
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\bin\Debug\netstandard2.1\BlazorShop.Models.deps.json
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\bin\Debug\netstandard2.1\BlazorShop.Models.dll
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\bin\Debug\netstandard2.1\BlazorShop.Models.pdb
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\bin\Debug\netstandard2.1\BlazorShop.Common.dll
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\bin\Debug\netstandard2.1\BlazorShop.Data.dll
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\bin\Debug\netstandard2.1\BlazorShop.Data.pdb
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\bin\Debug\netstandard2.1\BlazorShop.Common.pdb
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\obj\Debug\netstandard2.1\BlazorShop.Models.csproj.AssemblyReference.cache
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\obj\Debug\netstandard2.1\BlazorShop.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\obj\Debug\netstandard2.1\BlazorShop.Models.AssemblyInfoInputs.cache
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\obj\Debug\netstandard2.1\BlazorShop.Models.AssemblyInfo.cs
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\obj\Debug\netstandard2.1\BlazorShop.Models.csproj.CoreCompileInputs.cache
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\obj\Debug\netstandard2.1\BlazorShop.Models.csproj.CopyComplete
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\obj\Debug\netstandard2.1\BlazorShop.Models.dll
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Models\obj\Debug\netstandard2.1\BlazorShop.Models.pdb
