@@ -203,6 +203,14 @@ C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\obj\Debug\net5.0\Veget
 C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\obj\Debug\net5.0\ref\VegetableShop.dll
 C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\obj\Debug\net5.0\VegetableShop.pdb
 C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\obj\Debug\net5.0\VegetableShop.genruntimeconfig.cache
-C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\obj\Debug\net5.0\VegetableShop.csproj.AssemblyReference.cache
 C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\obj\Debug\net5.0\RazorDeclaration\Pages\Login.razor.g.cs
 C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\obj\Debug\net5.0\Razor\Pages\Login.razor.g.cs
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\obj\Debug\net5.0\VegetableShop.csproj.AssemblyReference.cache
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\bin\Debug\net5.0\Blazored.LocalStorage.dll
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\bin\Debug\net5.0\Microsoft.AspNetCore.Components.dll
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\bin\Debug\net5.0\Microsoft.JSInterop.dll
+C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\bin\Debug\net5.0\System.IO.Pipelines.dll

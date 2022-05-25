@@ -112,7 +112,7 @@ using VegetableShop.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 44 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Pages\Login.razor"
+#line 37 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Pages\Login.razor"
        
     private string Load = null;
     private class Model
