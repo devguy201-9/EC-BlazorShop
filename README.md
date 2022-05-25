@@ -9,7 +9,7 @@ Simple shop application built with Blazor WebAssembly
 Make sure you have the [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download) installed on your machine. Then do:
 
 ```
-git clone https://github.com/devguy201-9/E-Vegetable-shop.git
+git clone https://github.com/devguy201-9/EC-BlazorShop.git
 dotnet run --project BlazorShop.Web/Server/BlazorShop.Web.Server.csproj
 ```
 
