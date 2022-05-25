@@ -36,6 +36,12 @@ Make sure you have the [.NET Core SDK](https://dotnet.microsoft.com/download) in
 #### Create Database
 
 ```
+Execute query script in file BlazorShopDb.sql from Microsoft SQL Server Management Studio
+```
+
+###### Or
+
+```
 git clone https://github.com/devguy201-9/BlazorCRUD.git
 Update-Database
 ```
@@ -43,5 +49,6 @@ Update-Database
 
 ```
 git clone https://github.com/devguy201-9/EC-BlazorShop.git
+Change the DefaultConnection value with the ConnectionString retrieved from the Database Engine in the file ./BlazorShop.Web/Server/appsettings.json
 dotnet run --project BlazorShop.Web/Server/BlazorShop.Web.Server.csproj
 ```
