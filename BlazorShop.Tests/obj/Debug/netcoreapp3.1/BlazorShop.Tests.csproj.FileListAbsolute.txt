@@ -2,6 +2,7 @@ C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\n
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\BlazorShop.Web.Server.deps.json
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\BlazorShop.Web.Server.runtimeconfig.json
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\BlazorShop.Web.Server.runtimeconfig.dev.json
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\BlazorShop.Web.Client.StaticWebAssets.xml
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\BlazorDebugProxy\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
@@ -156,6 +157,7 @@ C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\n
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\BlazorDebugProxy\zh-Hans\Microsoft.CodeAnalysis.resources.dll
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\BlazorDebugProxy\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\BlazorDebugProxy\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\BlazorShop.Web.Server.StaticWebAssets.xml
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\BlazorShop.Web.Server.exe
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\testhost.exe
 C:\Users\tgthuan\Desktop\New folder2\BlazorShop\src\BlazorShop.Tests\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll

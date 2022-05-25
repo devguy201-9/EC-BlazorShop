@@ -1,0 +1,97 @@
+﻿@page "/"
+@namespace VegetableShop.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VegetableShop</title>
+    <base href="~/" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/LTE/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="~/LTE/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="~/LTE/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="~/LTE/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="~/LTE/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="~/LTE/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="~/LTE/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="~/LTE/css/style.css" type="text/css">
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="VegetableShop.styles.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/perfect-scrollbar/css/perfect-scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/material-design-icons/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/jquery.vectormap/jquery-jvectormap-1.2.2.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/jqvmap/jqvmap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/datetimepicker/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/lib/chartjs/Chart.min.js">
+
+
+    <link rel="stylesheet" href="~/Admin/css/app.css" type="text/css">
+    <style>
+        body{
+            background-color:white !important;
+        }
+        #bkgNav {
+            background-image: url("./LTE/img/hero/banner.jpg");
+        }
+    </style>
+</head>
+<body>
+    <component type="typeof(App)" render-mode="ServerPrerendered" />
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="~/LTE/js/owl.carousel.min.js"></script>
+    <script src="_framework/blazor.server.js"></script>
+
+
+
+    <script src="~/LTE/js/jquery-3.3.1.min.js"></script>
+    <script src="~/LTE//bootstrap.min.js"></script>
+    <script src="~/LTE/js/jquery.nice-select.min.js"></script>
+    <script src="~/LTE/js/jquery-ui.min.js"></script>
+    <script src="~/LTE/js/jquery.slicknav.js"></script>
+    <script src="~/LTE/js/mixitup.min.js"></script>
+    <script src="~/LTE/js/main.js"></script>
+
+    <script src="~/Admin/lib/jquery/jquery.min.js"></script>
+    <script src="~/Admin/lib/perfect-scrollbar/js/perfect-scrollbar.min.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="~/Admin/js/app.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/jquery.flot.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/jquery.flot.pie.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/jquery.flot.time.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/jquery.flot.resize.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/plugins/jquery.flot.orderBars.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/plugins/curvedLines.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-flot/plugins/jquery.flot.tooltip.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery.sparkline/jquery.sparkline.min.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/countup/countUp.min.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jqvmap/jquery.vmap.min.js" type="text/javascript"></script>
+    <script src="~/Admin/lib/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //-initialize the javascript
+            App.init();
+            App.dashboard();
+            
+        });
+    </script>
+</body>
+</html>
