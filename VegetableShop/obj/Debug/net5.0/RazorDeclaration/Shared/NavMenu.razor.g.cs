@@ -84,7 +84,14 @@ using VegetableShop.Shared;
 #nullable disable
 #nullable restore
 #line 1 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\NavMenu.razor"
-using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
+using VegetableShop.Data;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\NavMenu.razor"
+using VegetableShop.Services;
 
 #line default
 #line hidden
@@ -97,32 +104,20 @@ using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 7 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\NavMenu.razor"
-      
-    private string load = null;
-
-    protected override async Task OnInitializedAsync()
-    {
-        //await Task.Run(LoadingFunc);
-    }
-
-    private async void LoadingFunc()
-    {
-        var rs = await LocalStorage.GetAsync<string>("Loading");
-        load = rs.Success ? rs.Value : "Failed";
-    }
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 231 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\NavMenu.razor"
+#line 131 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Shared\NavMenu.razor"
        
 
-
+    private string load = "!ok";
+    public List<categories> CateObj;
+    protected override async Task OnInitializedAsync()
+    {
+        CateObj = await Task.Run(() => categoryService.GetAllCategoriesAsync());
+        load = "ok";
+    }
     private bool collapseNavMenu = true;
 
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
 
     private void ToggleNavMenu()
     {
@@ -134,7 +129,8 @@ using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 #nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime js { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ProtectedLocalStorage LocalStorage { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private List<Data.categories> categories { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private CategoryService categoryService { get; set; }
     }
 }
 #pragma warning restore 1591

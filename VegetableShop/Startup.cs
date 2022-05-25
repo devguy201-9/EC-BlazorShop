@@ -15,6 +15,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using VegetableShop.Areas.Identity;
 using VegetableShop.Data;
+using VegetableShop.Authentication;
 using VegetableShop.Services;
 
 namespace VegetableShop
@@ -44,6 +45,8 @@ namespace VegetableShop
             services.AddSingleton<WeatherForecastService>();
             services.AddScoped<UserService>();
             services.AddScoped<RoleService>();
+            services.AddSingleton<List<Data.categories>>();
+            services.AddScoped<CategoryService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

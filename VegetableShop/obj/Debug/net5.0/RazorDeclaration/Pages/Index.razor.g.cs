@@ -82,6 +82,20 @@ using VegetableShop.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Pages\Index.razor"
+using VegetableShop.Data;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Pages\Index.razor"
+using VegetableShop.Services;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -90,6 +104,17 @@ using VegetableShop.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 238 "C:\Users\tgthuan\source\repos\VegetableShop\VegetableShop\Pages\Index.razor"
+       
+    private string load = "ok";
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime js { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private CategoryService categoryService { get; set; }
     }
 }
 #pragma warning restore 1591
