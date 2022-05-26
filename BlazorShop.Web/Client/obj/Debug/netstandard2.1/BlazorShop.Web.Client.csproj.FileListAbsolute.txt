@@ -1054,7 +1054,6 @@ C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstanda
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\Razor\Shared\Products\Pagination.razor.g.cs
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\Razor\_Imports.razor.g.cs
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\blazor\unlinked.output
-C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\qDw75cMNxNPzMYY1H9b8OmE0kLJjrxHU6TZcbdffHvs=.hash
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\WkuXkEV--B1J2kYqjuSPxgHubOHALmA548PhKTed2JE=.hash
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
@@ -1144,7 +1143,6 @@ C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstanda
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\drTrTvtQWZGK50gk062zS3uwfxqrRBzRHwOgz5pknXs=.hash
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\ke6Q-xgZ4S1GlnU3EPO8TQYcI5FdDbg9t4C-JGKvSrY=.hash
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\SnlpX7tqR4Or48_LUVR7CMv3xLhjy1JBnmDfQCb2GwM=.hash
-C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\wMNDMN1FwoLjf1mZqh_KAN0yTDNngDD5tR3e0eYev24=.hash
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\QAP498NADE2f-2qzW7hQBZnLbBgYVibwbTaQPUgMxCg=.hash
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\luzCsGHg41BN-iOYNgkncz_xDj1HVC19tMYxaLI11Fg=.hash
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\ymdPEsfx1uHdDaqrWa2MDKtStIdJa-Wa33nxT48pI9s=.hash
@@ -1154,7 +1152,6 @@ C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstanda
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\blazor\blazor.boot.json
-C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\rhxoMAmen1atkGKbhliHKVIQljmZPAcam9CwsJl1Gw8=.hash
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\BlazorShop.Web.Client.dll.gz
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Buffers.dll.gz
@@ -1362,3 +1359,6 @@ C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstanda
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\BlazorShop.Web.Client.csproj.CopyComplete
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\BlazorShop.Web.Client.dll
 C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\BlazorShop.Web.Client.pdb
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\enzCUnPxTrrXK_4QAe5o6npJmz--cEULzVkpLQ_MQz8=.hash
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\fTNWElpEGllM7MWN4WcFPorhk82twSbnW5hfit_J4hU=.hash
+C:\Users\tgthuan\Desktop\EC-BlazorShop\BlazorShop.Web\Client\obj\Debug\netstandard2.1\integrity\G8qJzPuSvFJO0jeqMZOirZgOScI50wT-kydzHsL4Pps=.hash

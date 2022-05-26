@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qDw75cMNxNPzMYY1H9b8OmE0kLJjrxHU6TZcbdffHvs=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\enzCUnPxTrrXK_4QAe5o6npJmz--cEULzVkpLQ_MQz8=.hash",
       "Source": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Web\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorShop.Web.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorShop.Web.Client.dll.gz"
     },
@@ -451,7 +451,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Blazored.Toast.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wMNDMN1FwoLjf1mZqh_KAN0yTDNngDD5tR3e0eYev24=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fTNWElpEGllM7MWN4WcFPorhk82twSbnW5hfit_J4hU=.hash",
       "Source": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Web\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorShop.Web.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorShop.Web.Client.pdb.gz"
     },
@@ -496,7 +496,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rhxoMAmen1atkGKbhliHKVIQljmZPAcam9CwsJl1Gw8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\G8qJzPuSvFJO0jeqMZOirZgOScI50wT-kydzHsL4Pps=.hash",
       "Source": "C:\\Users\\tgthuan\\Desktop\\EC-BlazorShop\\BlazorShop.Web\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

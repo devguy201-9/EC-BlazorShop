@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "BlazorShop.Web.Client.dll": "sha256-qDw75cMNxNPzMYY1H9b8OmE0kLJjrxHU6TZcbdffHvs=",
+      "BlazorShop.Web.Client.dll": "sha256-enzCUnPxTrrXK+4QAe5o6npJmz\/\/cEULzVkpLQ+MQz8=",
       "System.Net.Http.Json.dll": "sha256-WkuXkEV\/\/B1J2kYqjuSPxgHubOHALmA548PhKTed2JE=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -98,7 +98,7 @@
       "Blazored.Toast.dll": "sha256-SnlpX7tqR4Or48+LUVR7CMv3xLhjy1JBnmDfQCb2GwM="
     },
     "pdb": {
-      "BlazorShop.Web.Client.pdb": "sha256-wMNDMN1FwoLjf1mZqh+KAN0yTDNngDD5tR3e0eYev24=",
+      "BlazorShop.Web.Client.pdb": "sha256-fTNWElpEGllM7MWN4WcFPorhk82twSbnW5hfit+J4hU=",
       "BlazorShop.Models.pdb": "sha256-QAP498NADE2f\/2qzW7hQBZnLbBgYVibwbTaQPUgMxCg=",
       "BlazorShop.Data.pdb": "sha256-luzCsGHg41BN\/iOYNgkncz+xDj1HVC19tMYxaLI11Fg=",
       "Microsoft.Data.SqlClient.pdb": "sha256-ymdPEsfx1uHdDaqrWa2MDKtStIdJa\/Wa33nxT48pI9s=",
